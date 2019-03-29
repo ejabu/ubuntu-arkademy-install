@@ -16,6 +16,7 @@ OE_SUPERADMIN="admin"
 
 
 THIS_USER="$(whoami)"
+ODOO_BASE_DIRECTORY="$HOME/arkademy"
 ODOO_DEVELOPMENT_DIRECTORY="$HOME/arkademy/devel"
 ODOO_CONFIG_DIRECTORY="$HOME/arkademy/config"
 ODOO_CONFIG_FILE="arkademy"
