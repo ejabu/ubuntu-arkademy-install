@@ -4,7 +4,7 @@
 
 echo -e "\n--- Installing Python 3 + pip3 --"
 sudo apt-get install python3 -y
-sudo apt-get python3-pip -y
+sudo apt-get install python3-pip -y
 
 echo -e "\n---- Install tool packages ----"
 sudo apt-get install wget git bzr gdebi-core -y
