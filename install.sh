@@ -2,9 +2,6 @@
 # Installation Parameter
 #--------------------------------------------------
 
-# OE_USER="odoo"
-# OE_HOME="/$OE_USER"
-# OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 
 INSTALL_WKHTMLTOPDF="True"
 
@@ -26,12 +23,12 @@ ODOO_SOURCE_DIRECTORY="$HOME/arkademy/source"
 
 # Execution Scripts
 
-# . ./step/update-linux.sh
-# . ./step/postgresql.sh
-# . ./step/python.sh
-# . ./step/wkhtml.sh
-# . ./step/odoo-folder.sh
+. ./step/update-linux.sh
+. ./step/postgresql.sh
+. ./step/python.sh
+. ./step/wkhtml.sh
+. ./step/odoo-folder.sh
 . ./step/clone-odoo.sh
-# . ./step/odoo-config.sh
-# . ./step/start-odoo.sh
+. ./step/odoo-config.sh
+. ./step/start-odoo.sh
 
