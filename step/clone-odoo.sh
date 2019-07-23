@@ -14,5 +14,5 @@ echo -e "\n==== Installing ODOO Requirements ===="
 sudo pip3 install python3-ldap
 
 # sudo pip3 install -r $ODOO_SOURCE_DIRECTORY/$OE_VERSION/requirements.txt
-sudo pip3 install -r ../odoo-req/requirements.txt
+sudo pip3 install -r odoo-req/requirements.txt
 
