@@ -2,9 +2,10 @@
 # Installation Parameter
 #--------------------------------------------------
 
-OE_USER="odoo"
-OE_HOME="/$OE_USER"
-OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
+# OE_USER="odoo"
+# OE_HOME="/$OE_USER"
+# OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
+
 INSTALL_WKHTMLTOPDF="True"
 
 # Set the default Odoo port (you still have to use -c /etc/odoo-server.conf for example to use this.)
