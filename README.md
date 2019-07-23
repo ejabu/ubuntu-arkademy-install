@@ -1,15 +1,24 @@
 # [Odoo](https://www.odoo.com "Odoo's Homepage") Install Script
 
-1. Ubah Permission dari Read Write (RW) menjadi Read Write Execute (RWX)
 
+1. Buka Terminal 
+
+2. Langsung masukkan command berikut
+
+
+- Untuk Download Installation Script
 ```
-chmod +x install.sh
+$ git clone https://github.com/ejabu/ubuntu-arkademy-install.git --depth 1
 ```
 
-2. Jalankan Script untuk install
-
+- Pindah Folder ke dalam ubuntu-arkademy-install
 ```
-./install.sh
+$ cd ubuntu-arkademy-install
+```
+
+- Menjalankan File Instalasi
+```
+$ ./install.sh
 ```
 
 ## Kendala :
