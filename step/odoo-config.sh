@@ -14,8 +14,8 @@ printf '# Setiap config file untuk Odoo memerlukan [options] di awal \n' >> $CON
 printf 'admin_passwd = %s\n' $OE_SUPERADMIN >> $CONFIG_FILE
 printf 'xmlrpc_port = %s\n' $OE_PORT >> $CONFIG_FILE
 printf 'addons_path=\n' >> $CONFIG_FILE
-printf '\t%s/devel/toko1\n' $ODOO_DEVELOPMENT_DIRECTORY >> $CONFIG_FILE
-printf '\t%s/devel/toko2\n' $ODOO_DEVELOPMENT_DIRECTORY >> $CONFIG_FILE
+printf '    %s/toko1\n' $ODOO_DEVELOPMENT_DIRECTORY >> $CONFIG_FILE
+printf '    %s/toko2\n' $ODOO_DEVELOPMENT_DIRECTORY >> $CONFIG_FILE
 
 echo -e "Changing Permission"
 sudo chown $THIS_USER:$THIS_USER $CONFIG_FILE
